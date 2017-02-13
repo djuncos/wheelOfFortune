@@ -1,0 +1,379 @@
+body{}
+
+.container{
+
+	position: static;
+	z-index: -1;
+	padding-top: 10px;
+	/*background-color: black;*/
+
+
+}
+
+
+.phraseDisplayClass{
+
+	width: 300px;
+	height: 50px;
+	border: 1px red solid;
+	float: right;
+	clear: right;
+	display: none;
+}
+
+.guessListClass{
+
+	width: 200px;
+	height: auto;
+	min-height: 64px;
+	border: 2px white solid;
+	float: right;
+	border-radius: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: white;
+	font-size: 20px;
+}
+
+
+
+.hintClass{
+
+	width: 100%;
+	height: 20px;
+	/*border: 1px orange solid;*/
+	text-align: center;
+	background-image: url("../img/boardPic01.jpg");
+    background-size: contain;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+
+	
+}
+
+
+
+
+.submitSolutionClass{
+
+	display: none;
+
+}
+
+.unknownLetter{
+
+	background-image: url("../img/tile04.jpg");
+	background-repeat: no-repeat;
+	background-position: 40% 75%;
+	background-size: contain;
+	
+
+	margin: 27px 0% 0 0;
+	width: 80px;
+	height: 90px;
+	float: left;
+	overflow: hidden;
+	transition-property: background-image;
+	/*border: 1px gray solid;*/
+	border-radius: 10px;
+	
+	
+
+
+}
+
+.spacePlace{
+
+	
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: 40% 75%;
+	
+
+	margin: 27px 0% 0 0;
+	width: 80px;
+	height: 90px;
+	float: left;
+	overflow: hidden;
+	transition-property: background-image;
+	/*border: 1px aqua solid;*/
+	text-align: center;
+	
+	
+	font-size: 50px;
+	padding-top: 10px;
+
+
+}
+
+.puzzleContainer{
+
+	
+	width: 100%;
+	height: auto;
+	min-height:300px; 
+	margin: 0 auto;
+	border: 3px white solid;
+	border-radius: 20px;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("../img/boardPic01.jpg");
+    background-size: auto 100%;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+
+}
+
+.guessALetterClass{
+
+	display: inline;
+	position: relative;
+}
+
+.rightSideClass{
+
+	float: right;
+}
+
+.leftSideClass{
+
+	width: 350px;
+	height: auto;
+	
+	/*border: 1px blue solid;*/
+	float: left;
+	display: block;
+	position: absolute;
+	z-index: 3
+	
+
+
+}
+
+.youWinClass{
+
+	width: 250px;
+	height: 50px;
+	border: 1px green solid;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	/*font-size: 12px;*/
+	
+	
+}
+
+
+
+.newGameClass{
+
+	clear: right;
+	float: right;
+	margin-right: 0%;
+	margin-top: 1%;
+	/*bottom: 20%;*/
+	/*position: absolute;*/
+
+	/*color: black;
+	background-color: auto;
+	border-radius: 10px;
+	width: 100px;
+	font-weight: bold;
+	font-size: 13px;*/
+	
+	
+}
+
+.opponentClass{
+
+	float: right;
+	clear: right;
+	display: none;
+}
+
+
+.opening{
+
+	position: absolute;
+	z-index: 2;
+	font-size: 120px;
+	font-weight: bolder;
+	color: white;
+	text-shadow: 2px 2px black;
+	display: block;
+
+
+}
+
+#nealID{
+
+	top: 100px;
+	left: 36%;
+
+}
+
+#ofID{
+
+	top: 212px;
+	left: 45%;
+	font-size: 80px;
+
+}
+
+#horshamID{
+
+	top: 275px;
+	left: 25%;
+
+}
+
+.insertClass{
+
+	display: inline;
+	width: auto;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+
+	/*border: solid brown 3px;*/
+}
+
+.words{
+
+	display: inline-block;
+
+}
+
+.revealedText{
+
+	border: 1px aqua solid;
+	font-weight: bolder;
+	border-radius: 10px;
+
+
+}
+
+#inputLetter{
+
+	width: 90px;
+	/*border-radius: 5px;*/
+
+}
+
+button{
+
+	color: black;
+	background-color: auto;
+	border-radius: 8px;
+	width: 100px;
+	font-weight: bold;
+	font-size: 13px;
+	position: static;
+	z-index: 2;
+
+}
+
+.spinClass{
+
+	width: 200px;
+	margin-bottom: 3%;
+
+}
+
+.guessALetterClass{
+
+	width: 100px;
+	margin-right: 2%;
+	margin-bottom: 3%;
+}
+
+.buyAVowelClass{
+
+	width: 200px;
+	margin-bottom: 3%;
+
+}
+
+.solvePuzzleClass{
+
+	width: 200px;
+	margin-bottom: 3%;
+}
+
+.solutionButtonClass{
+
+	margin-left: 6px;
+}
+
+#inputGuess{
+
+	width: 200px;
+
+}
+
+.wheelContainer{
+
+	/*background-image: url("../img/wheel012.jpg");*/
+	/*background-size: 800px 300px;
+	background-repeat: no-repeat;
+	background-position: center;*/
+	height: 400px;
+	width: 100%;
+	position: fixed;
+	padding-top: 20px;
+	/*display: none;
+*/
+	
+	/*
+	border: solid red 4px;
+	*/
+	
+}
+
+#wheelID{
+
+	/*top: 450px;*/
+	/*left: 10%;*/
+	display: block;
+	margin: 0 auto;
+	position: static;
+	z-index: -3;
+	border: solid 5px grey;
+	border-radius: 50%;
+}
+
+#blackLine{
+
+	width: 870px;
+	height: 60px;
+	border-top: solid 1px aqua;
+	position: absolute;
+	z-index: 0;
+	background-color: black;
+	top: 35%;
+	/*border-radius: 30px;*/
+	left: 186px;
+	right: 186px;
+
+}
+
+.nothing{
+
+	opacity: 0;
+
+}
+
+.show{
+
+	opacity: 1;
+
+}
