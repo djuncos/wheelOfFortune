@@ -353,7 +353,7 @@ button{
 
 #blackLine{
 
-	width: 73%;
+	width: 100%;
 	height: 100%;
 	border-top: solid 1px aqua;
 	position: absolute;
@@ -361,8 +361,8 @@ button{
 	background-color: black;
 	top: 35%;
 	/*border-radius: 30px;*/
-	left: 186px;
-	right: 186px;
+/* 	left: 186px;
+	right: 186px; */
 
 }
 
